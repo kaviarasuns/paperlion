@@ -1,0 +1,9 @@
+@import "tailwindcss";
+
+body {
+  @apply bg-neutral-50 text-neutral-900 antialiased;
+}
+
+:focus-visible {
+  @apply outline-2 outline-offset-2 outline-neutral-800;
+}

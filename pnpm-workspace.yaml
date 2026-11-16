@@ -1,0 +1,9 @@
+packages:
+  - apps/*
+  - packages/*
+
+nodeLinker: hoisted
+
+# @effect/platform-node 4.0.5 accepts a newer shared package that needs effect ^4.1.4.
+overrides:
+  "@effect/platform-node-shared": 4.0.5
